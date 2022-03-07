@@ -1,0 +1,12 @@
+.todo {
+  &-task {
+    &-bar {
+      display: flex;
+      margin-top: 32px;
+    }
+    &-input {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}

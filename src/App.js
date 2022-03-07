@@ -7,8 +7,6 @@ function App() {
   return (
     <div className="app-wrapper">
         <Todo store={store} />
-      {/*{console.log(JSON.stringify(store))}*/}
-      {/*{console.log(getSnapshot(store))}*/}
     </div>
   );
 }

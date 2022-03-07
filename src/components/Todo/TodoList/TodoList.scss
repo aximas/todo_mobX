@@ -1,0 +1,10 @@
+.todo {
+  &-list {
+    display: flex;
+    margin: 12px 0;
+    &-input {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}

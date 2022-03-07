@@ -1,0 +1,18 @@
+.todo {
+  &-header {
+    display: grid;
+    grid-template-areas: "counter-all counter-all"
+                          "counter-pending counter-completed";
+  }
+  &-counter {
+    &-all {
+      grid-area: counter-all;
+    }
+    &-pending {
+      grid-area: counter-pending;
+    }
+    &-completed {
+      grid-area: counter-completed;
+    }
+  }
+}
